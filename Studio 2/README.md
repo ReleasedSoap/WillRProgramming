@@ -51,6 +51,7 @@ For the final project, I decided to work with an online gaming platform, Roblox,
    - For this project, I was allowed to choose what I wanted to do. I decided to create a game in Roblox. Before I began, I already had basic experience using the software.
    - I used free models provided in the software.
    - Due to the language difference between what I know and what Roblox used, I had to reference other people's code. I also got some help from ChatGPT.
+   - This project includes the game itself, the final project documentation, and the presentation I presented in class.
   + Technology Used
     - Roblox Studio
     - Roblox Player
