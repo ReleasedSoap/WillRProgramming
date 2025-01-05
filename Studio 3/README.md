@@ -4,7 +4,7 @@ The Studio 3 class was shorter than the other two studio classes, only lasting t
 Most of the work consisted of using GitHub, BootStrap, Databases, and more Web Development.
 
 # Projects 
-### BootStap
+### BootStrap
 + Project Summary
   - The project was an introduction to BootStrap. I've heard of it before, but I've never used it.
   - I created the page and added it to it.
