@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duck Pond Campsites Contact Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <header>
+      <h1>Duck Pond Campsites</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="CampMapImages.html">Campgrounds</a></li>
+        <li><a href="Rules.html">Rulebook</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a class="active" href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Contact Duck Pond Corporate</h2>
+
+      <p>Have Questions? Concerns? Fill out the information below and we'll get back to as fast as possible!</p>
+      <br>
+      <p>Required information is marked with an asterisk (*).</p>
+      <form method="post" action="https://webdevbasics.net/scripts/fishcreek.php">
+        <label for="myName">*Name:</label>
+        <input type="text" name="myName" id="myName" required>
+        <label for="myEmail">*E-mail:</label>
+        <input type="email" name="myEmail" id="myEmail" required>
+        <label for="myComments">*Comments:</label>
+        <textarea name="myComments" id="myComments" rows="2" cols="20" required></textarea>
+        <input type="submit" value="Send Now" id="mySubmit">
+      </form>
+    </main>
+
+    <footer>
+      Copyright &copy; 2023 Duck Pond Campsites <br>
+      <a href="mailto:william@ramberg.com">william@ramberg.com</a>
+    </footer>
+
+  </div>
+</body>
+
+</html>

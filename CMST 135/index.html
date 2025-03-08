@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duck Pond Campsites Home</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Duck Pond Campsites</h1>
+    </header>
+
+    <nav>
+      <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="CampMapImages.html">Campgrounds</a></li>
+      <li><a href="Rules.html">Rulebook</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Welcome to Duck Pond Campsites!</h2>
+
+      <p>Click to Expand Images</p>
+      <!-- The grid: four columns -->
+      <div class="row">
+        <div class="column">
+          <img src="Images/Duck.jpg" alt="Duck" width="50%" height="50%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="Images/Fish.jpg" alt="Fish" width="50%" height="50%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="Images/Hawk1.jpg" alt="Hawk" width="50%" height="50%" onclick="myFunction(this);">
+        </div>
+      </div>
+
+      <!-- The expanding image container -->
+      <div class="container">
+        <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+        <!-- Expanded image -->
+        <!--W3C checker isn't liking the next line, this line is for the script.js-->
+        <img id="expandedImg" style="width:75%">
+
+        <!-- Image text -->
+        <div id="imgtext"></div>
+      </div>
+     
+      <br>
+
+<h3>Duck Pond's Annual Fishing Contest is Coming Soon!</h3>
+      <p>Fun for all ages. Any cheating will result in disqualification and a possible ban. Sign up for a chance at winning a $50 Bass Pro Shop Gift Card.</p>
+      <p>Applicants must apply at Joe's Tackle Shop before August 17th to enter.</p>
+      
+      <br>
+      
+      <h3>Last Years Winner</h3>
+      <p>Last year, Duck Pond held a contest for the best fisherman. The winner was Dale Gribble, from Grand Island, Nebraska</p>
+      <img src="Images/Man Holding Big Fish.jpg" alt="Dale Gribble" width="280" height="200">
+<br>
+<br>
+      <br>
+      <br>
+      <table border="1">
+        <caption><strong>Unique Duck Sightings</strong></caption>
+        <tr>
+          <td>Name</td>
+          <td>Date</td>
+        </tr>
+        <tr>
+        <td>Cinnamon Teal Flat Bill</td>
+          <td>05/14/09</td>
+        </tr>
+        <tr>
+        <td>Northern Shoveler</td>
+        <td>07/04/01</td>
+        </tr>
+        <tr>
+          <td>Northern Pintail</td>
+          <td>07/23/01</td>
+        </tr>
+        <tr>
+          <td>Ruddy Duck</td>
+          <td>10/31/06</td>
+        </tr>
+      </table>
+
+      
+      <h3>Have Concerns? Questions?</h3>
+      <p>Submit any concerns or questions on our <a href=Contact.html>contact</a> page</p>
+    
+      
+    </main>
+
+    <footer>
+      Copyright &copy; 2023 Duck Pond Campsites <br>
+      <a href="mailto:william@ramberg.com">william@ramberg.com</a>
+    </footer>
+
+  </div>
+</body>
+
+</html>

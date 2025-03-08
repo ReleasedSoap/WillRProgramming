@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duck Pond Campsites Camp Map</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Duck Pond Campsites</h1>
+    </header>
+
+    <nav>
+      <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="CampMapImages.html">Campgrounds</a></li>
+      <li><a href="Rules.html">Rulebook</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+
+    <h2>Choose A Campsite</h2>
+      <img src="Images/CampMap.jpg" alt="CampMap" width="75%" height="75%">
+      <p>(1) Fish Creek</p>
+      <p>(2) Beaver Dam</p>
+      <p>(3) Eagles Peak</p>
+      <p>(4) Cavern Caves</p>
+      
+      <form action="SubmitRecieved.html">
+        <label for="campsites">Campsite:</label>
+        <select name="campsite" id="campsites">
+          <option value="blank">-</option>
+          <option value="Fish Creek">(1) Fish Creek</option>
+          <option value="Beaver Dam">(2) Beaver Dam</option>
+          <option value="Eagles Peak">(3) Eagles Peak</option>
+          <option value="Cavern Caves">(4) Cavern Caves</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+
+    </main>
+
+    <footer>
+      Copyright &copy; 2023 Duck Pond Campsites <br>
+      <a href="mailto:william@ramberg.com">william@ramberg.com</a>
+    </footer>
+
+  </div>
+</body>
+
+</html>
